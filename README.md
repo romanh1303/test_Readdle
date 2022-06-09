@@ -6,7 +6,7 @@ I think selenium so old api :D so im use the next =>
 This test created with API playwright
 
 For starting test in your command line enter next:
-npm playwright test
+npx playwright test
 
 After successed test u get screenshoot in your project path.
 
