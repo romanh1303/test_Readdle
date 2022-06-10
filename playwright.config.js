@@ -1,7 +1,7 @@
 module.exports = {
 
-    timeout: 30000,
-    retries: 2
+    timeout: 40000,
+    retries: 1
 
     
   };
