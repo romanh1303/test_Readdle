@@ -4,7 +4,7 @@
 const config = {
   timeout: 10000,
   use:{
-    headless: false,
+    headless: true,
   }
 };
 
