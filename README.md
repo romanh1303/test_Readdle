@@ -12,7 +12,5 @@ Test running with parameter {headless: true} it's mean test run without automate
 After successed test u get screenshoot in your project path.
 
 
-P.S.
-About step when i need click on 'Buy' button, idk why but i have some problem with this button. So i add 1 more useless step click on the 'Buy on credit' button.
-After close pop-up, without any problems i was able to click on on the 'Buy' button.
+
 
