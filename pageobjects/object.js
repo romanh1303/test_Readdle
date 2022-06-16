@@ -13,7 +13,9 @@ exports.ObjectPage = class ObjectPage {
   }
 
   async click_buy() {
+    await this.credit.isVisible();
     await this.credit.isEnabled();
+
     await this.buy.click();
     await this.close_modal.isVisible();
     await this.close_modal.click();
