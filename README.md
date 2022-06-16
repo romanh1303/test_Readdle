@@ -9,7 +9,7 @@ For starting test in your command line enter next:
 npm test.
 Test running with parameter {headless: true} it's mean test run without automated browser, used only console
 
-After successed test u get screenshoot in your project path.
+
 
 
 
