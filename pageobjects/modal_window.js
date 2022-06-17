@@ -14,6 +14,9 @@ exports.Modal = class Modal {
     await this.modal_header.isVisible();
     await expect(this.modal_header).toHaveText('Корзина')
     await expect(this.product_title).toHaveText(this.expect_title)
+    await this.page.screenshot({
+      path: 'screenshot.png'
+    })
     await this.x_button.click();
   }
 };
