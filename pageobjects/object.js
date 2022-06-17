@@ -4,7 +4,7 @@ exports.ObjectPage = class ObjectPage {
   constructor(page) {
     this.page = page;
 
-    this.credit = page.locator('button.button.button--medium.button--navy');
+    this.credit = page.locator('button.button.button--medium.button--navy.ng-star-inserted');
 
     this.buy = page.locator(
       'button.buy-button.button.button--with-icon.button--green.button--medium.ng-star-inserted'
@@ -13,8 +13,8 @@ exports.ObjectPage = class ObjectPage {
   }
 
   async click_buy() {
-    await this.credit.isVisible();
     await this.credit.isEnabled();
+    await expect(this.credit).toHaveText('Купить в кредит');
 
     await this.buy.click();
     await this.close_modal.isVisible();

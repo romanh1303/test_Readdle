@@ -1,4 +1,4 @@
-const { test, chromium } = require('@playwright/test');
+const { test } = require('@playwright/test');
 const { PageHeader } = require('../pageobjects/header');
 const { ObjectPage } = require('../pageobjects/object');
 const { BasePage } = require('../pageobjects/basepage');
