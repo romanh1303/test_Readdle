@@ -26,9 +26,12 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: 14
-    - run: npm i -g npm@8
-    - run: npm ci
-    - run: npx playwright install 
+    - name: Install dependencies
+      run: | 
+          cd testing
+          npm ci
+          npx playwright install-deps
+          npx playwright install
     - run: npm run test
     - uses: actions/upload-artifact@v2
       with:
