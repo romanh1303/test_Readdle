@@ -2,7 +2,7 @@
 
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 const config = {
-  timeout: 10000,
+  timeout: 20000,
   use:{
     headless: true,
   }
