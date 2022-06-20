@@ -10,7 +10,8 @@ npm test.
 Test running with parameter {headless: true} it's mean test run without automated browser, used only console
 
 
-
+20.06 UPDATE PRICE
+From 3 666 to 3 799
 
 
 
