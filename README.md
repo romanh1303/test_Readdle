@@ -7,6 +7,7 @@ This test created with API playwright
 
 For starting test in your command line enter next:
 npm test.
+OR! U can open Github Actions, Open my "TEST TASK" workflow and just w8) after passed test u can get screenshot with your last step in your task)
 Test running with parameter {headless: true} it's mean test run without automated browser, used only console
 
 
