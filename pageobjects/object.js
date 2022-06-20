@@ -13,7 +13,7 @@ exports.ObjectPage = class ObjectPage {
   }
 
   async click_buy() {
-    await expect(this.credit).toHaveText('Купить в кредит');
+    await expect(this.credit).toHaveText('Купить в кредит', {timeout: 40000});
     await this.buy.click();
     await this.close_modal.isVisible();
     await this.close_modal.click();
