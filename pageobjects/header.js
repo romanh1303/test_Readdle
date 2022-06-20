@@ -8,7 +8,7 @@ exports.PageHeader = class PageHeader{
     this.search_bar = page.locator('.search-form__input');
     this.product_page = page.locator('.suggest-goods');
     this.expect_title =
-      'Apple MagSafe 2 85 Вт для MacBook Pro с 15" дисплеем Retina (MD506Z/A)   3 666 ₴ ';
+      'Apple MagSafe 2 85 Вт для MacBook Pro с 15" дисплеем Retina (MD506Z/A)   3 799 ₴ ';
     this.headerLogo = page.locator('.header__logo');
     this.stash = page.locator('button.header__button.ng-star-inserted.header__button--active')
   }

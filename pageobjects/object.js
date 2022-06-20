@@ -13,9 +13,10 @@ exports.ObjectPage = class ObjectPage {
   }
 
   async click_buy() {
-    await this.credit.isEnabled();
+    await expect(this.credit).toBeVisible();
+    await this.credit.isVisible();
     await expect(this.credit).toHaveText('Купить в кредит');
-
+    
     await this.buy.click();
     await this.close_modal.isVisible();
     await this.close_modal.click();
